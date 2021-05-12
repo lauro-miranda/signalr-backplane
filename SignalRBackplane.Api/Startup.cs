@@ -39,7 +39,10 @@ namespace SignalRBackplane.Api
 
             services
                 .AddSignalR()
-                .AddRedis(conn);
+                .AddRedis(conn, o =>
+                {
+
+                });
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
