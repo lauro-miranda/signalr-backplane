@@ -1,2 +1,2 @@
 # signalr-backplane
-SiganR backplane com Redis
+SignalR backplane com Redis
